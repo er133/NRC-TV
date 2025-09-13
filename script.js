@@ -1,1 +1,1 @@
-console.log('NRC TV News website loaded successfully!');
+console.log("NRC TV News website loaded successfully!");
