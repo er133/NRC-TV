@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e8f0f8;
+    background-color: #d0f0ff; /* very light bright blue */
 }
 
 header {
-    background-color: #1a3d7c;
+    background-color: #0066ff; /* bright blue */
     color: white;
     display: flex;
     justify-content: space-between;
@@ -15,7 +15,7 @@ header {
 }
 
 header nav a {
-    color: #2ecc71;
+    color: #00ff66; /* bright green */
     margin-left: 15px;
     text-decoration: none;
     font-weight: bold;
@@ -26,11 +26,12 @@ header nav a:hover {
 }
 
 .breaking-news {
-    background-color: #2ecc71;
-    color: white;
+    background-color: #00ff66; /* bright green */
+    color: #003300; /* dark text for contrast */
     text-align: center;
     padding: 0.5rem;
     font-weight: bold;
+    font-size: 1.1rem;
 }
 
 main {
@@ -43,22 +44,22 @@ main {
 
 .news-card {
     background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
     margin-bottom: 1rem;
     padding: 1rem;
-    transition: transform 0.2s;
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .news-card img {
     width: 100%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .news-card:hover {
-    transform: scale(1.03);
-    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
 .news-grid {
@@ -68,8 +69,8 @@ main {
 }
 
 footer {
-    background-color: #1a3d7c;
-    color: #2ecc71;
+    background-color: #0066ff; /* bright blue */
+    color: #00ff66; /* bright green */
     text-align: center;
     padding: 1rem;
     font-weight: bold;
